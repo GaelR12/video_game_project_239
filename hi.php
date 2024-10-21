@@ -1,5 +1,5 @@
-<?php include "includes/cdnlinks.php"?>
-<?php include "includes/nav.php"?>
+<?php include "model/cdnlinks.php"?>
+<?php include "model/nav.php"?>
 
 <!DOCTYPE html>
 <html lang="en">
