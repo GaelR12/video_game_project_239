@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <?php include "includes/cdnlinks.php"?>
+    <?php include "views/includes/cdnlinks.php"?>
 </head>
 <body>
-    <?php include "includes/nav.php"?>
+    <?php include "views/includes/nav.php"?>
 
     <div class="grid text-center">
     <h1>Login Page</h1><br>
@@ -44,7 +44,7 @@
         //reads if both fields are filled in order to open users.csv
         if (!empty($username) && !empty($password)) {
             //open users.csv
-            $file = fopen("users.csv", "r");
+            $file = fopen("models/users.csv", "r");
            
             if($file) {
                 $loginSuccess = false;

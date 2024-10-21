@@ -1,5 +1,5 @@
-<?php include 'includes/cdnlinks.php'?>
-<?php include 'includes/nav.php'?>
+<?php include 'views/includes/cdnlinks.php'?>
+<?php include 'views/includes/nav.php'?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +18,7 @@
     <div class="card-group">
     <?php
             // Open the games.csv file
-            $file = fopen("games.csv", "r");
+            $file = fopen("models/games.csv", "r");
             if ($file) {
                 // Loop through each line in the CSV file
                 while (($data = fgetcsv($file)) !== FALSE) {
