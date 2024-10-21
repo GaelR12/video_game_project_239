@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <?php include "includes/cdnlinks.php"?>
+    <?php include "views/includes/cdnlinks.php"?>
 </head>
 <body>
-    <?php include "includes/nav.php"?>
+    <?php include "views/includes/nav.php"?>
 
     <div class="grid text-center">
     <h1>Login Page</h1><br>
