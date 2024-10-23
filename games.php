@@ -1,5 +1,5 @@
 <?php include 'views/includes/cdnlinks.php'?>
-<?php include 'views/includes/nav.php'?>
+<?php include 'views/includes/nav_games.php'?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -34,6 +34,8 @@
                     $imagePath = htmlspecialchars($data[3]);
                     
                     // Generate a Bootstrap card for each game
+
+            
                     echo '
                     <div class="card">
                         <img src="' . $imagePath . '" class="card-img-top" alt="' . $title . '">

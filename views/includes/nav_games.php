@@ -10,6 +10,16 @@
         <a class="nav-link" href="index.php">Login</a>
         <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
       </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="games.php">Game List</a>
+        <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="games_add.php">Add Game</a>
+        <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+      </div>
     </div>
   </div>
 </nav>
